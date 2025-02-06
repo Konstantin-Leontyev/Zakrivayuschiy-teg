@@ -16,6 +16,10 @@
 */
 
 .page {
-  min-inline-size: 320px;
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  font-family: var(--content-text);
+  font-variation-settings: 'wght' var(--card-content-font-weight);
   min-block-size: 100dvb;
+  min-inline-size: 320px;
 }

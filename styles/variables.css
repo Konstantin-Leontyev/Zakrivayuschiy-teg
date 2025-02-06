@@ -1,2 +1,19 @@
 /* TODO delete comment */
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --bg-color: #FFF;
+  --accent-color: #000;
+  --interface-text: 'Press Start 2P', sans-serif;
+  --content-text: 'Inter-Variable', sans-serif;
+  --card-title-font-weight: 700;
+  --card-content-font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --accent-color: #00CC14;
+    --card-title-font-weight: 785;
+    --card-content-font-weight: 465;
+  }
+}

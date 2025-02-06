@@ -5,3 +5,17 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+.page.theme-dark {
+  --bg-color: #000;
+  --accent-color: #00CC14;
+  --card-title-font-weight: 785;
+  --card-content-font-weight: 465;
+}
+
+.page.theme-light {
+  --bg-color: #FFF;
+  --accent-color: #000;
+  --card-title-font-weight: 700;
+  --card-content-font-weight: 400;
+}
