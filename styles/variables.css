@@ -6,7 +6,8 @@
   --bg-image: url(../svg/pattern-light.svg);
   --accent-text: 'Press Start 2P', sans-serif;
   --content-text: 'Inter-Variable', sans-serif;
-  --wght: 400;
+  --font-wght: 400;
+  --title-wght: 700;
   --heart-contour: #000;
   --heart-fill: red;
 }
@@ -17,10 +18,7 @@
     --bg-color: #000;
     --bg-image: url(../svg/pattern-dark.svg);
     --heart-contour: #00CC14;
-    --wght: 465;
-  }
-
-  .text-weight-bold {
-    --wght: 785;
+    --font-wght: 465;
+    --title-wght: 785;
   }
 }

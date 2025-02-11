@@ -21,15 +21,7 @@
   background-size: 4px 4px;
   color: var(--accent-color);
   font-family: var(--content-text);
-}
-
-.text-width-bold {
-  --wgth: 700
-}
-
-.page,
-.text-width-bold {
-  font-variation-settings: 'wdth' var(--wdth);
+  font-variation-settings: 'wght' var(--font-wght);
 }
 
 .card {
@@ -53,7 +45,7 @@
   margin-block-end: 20px;
 }
 
-.header__subtitle{
+.header__subtitle {
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
   text-transform: uppercase;
 }
@@ -91,7 +83,7 @@
   pointer-events: none;
 }
 
-.theme-menu__button::after{
+.theme-menu__button::after {
   border-bottom: 2px solid currentColor;
   content: '';
   inline-size: 100%;
@@ -118,6 +110,7 @@
   font-size: 18px;
   line-height: 21.78px;
   padding: 3px 10px 3px;
+  font-variation-settings: 'wght' var(--title-wght);
 }
 
 .card-image {
@@ -197,7 +190,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: increase .3s ease-in .01s alternate; 
+  animation: increase .3s ease-in .01s alternate;
 }
 
 .sparks {
@@ -260,22 +253,28 @@
   transform: scaleX(1);
 }
 
+.save-button svg {
+  fill: var(--accent-color);
+  width: 21px;
+  height: 21px;
+}
+
 .card__like-button:hover .button__text,
-.save-button:hover .button__text,
-.save-button:hover svg {
+.save-button:hover .button__text{
   color: var(--bg-color);
   transition: color 1s ease;
   z-index: 1;
 }
 
-.save-button svg {
-  width: 21px;
-  height: 21px;
+.save-button:hover svg {
+  fill: var(--bg-color);
+  transition: fill 1s ease;
+  z-index: 1;
 }
 
 @media (width <= 375px) {
   .save-button {
-   flex-direction: column; 
+   flex-direction: column;
   }
 
   .save-button svg {

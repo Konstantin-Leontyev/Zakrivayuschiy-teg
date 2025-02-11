@@ -10,7 +10,8 @@
   --accent-color: #00CC14;
   --bg-color: #000;
   --bg-image: url(../svg/pattern-dark.svg);
-  --wght: 465;
+  --font-wght: 465;
+  --title-wght: 785;
   --heart-contour: #00CC14;
 }
 
@@ -18,6 +19,7 @@
   --accent-color: #000;
   --bg-color: #FFF;
   --bg-image: url(../svg/pattern-light.svg);
-  --wght: 400;
+  --font-wght: 400;
+  --title-wght: 700;
   --heart-contour: #000;
 }
