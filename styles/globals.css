@@ -11,6 +11,8 @@
 
 body {
   margin: 0;
+  min-block-size: 100dvb;
+  min-inline-size: 320px;
 }
 
 h1,
@@ -33,9 +35,19 @@ a {
 
 button,
 input {
+  background: transparent;
+  border: none;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 ul,

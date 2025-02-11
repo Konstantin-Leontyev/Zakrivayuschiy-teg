@@ -7,15 +7,17 @@
 */
 
 .page.theme-dark {
-  --bg-color: #000;
   --accent-color: #00CC14;
-  --card-title-font-weight: 785;
-  --card-content-font-weight: 465;
+  --bg-color: #000;
+  --bg-image: url(../svg/pattern-dark.svg);
+  --wght: 465;
+  --heart-contour: #00CC14;
 }
 
 .page.theme-light {
-  --bg-color: #FFF;
   --accent-color: #000;
-  --card-title-font-weight: 700;
-  --card-content-font-weight: 400;
+  --bg-color: #FFF;
+  --bg-image: url(../svg/pattern-light.svg);
+  --wght: 400;
+  --heart-contour: #000;
 }

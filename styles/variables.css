@@ -1,19 +1,26 @@
 /* TODO delete comment */
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --bg-color: #FFF;
   --accent-color: #000;
-  --interface-text: 'Press Start 2P', sans-serif;
+  --bg-color: #FFF;
+  --bg-image: url(../svg/pattern-light.svg);
+  --accent-text: 'Press Start 2P', sans-serif;
   --content-text: 'Inter-Variable', sans-serif;
-  --card-title-font-weight: 700;
-  --card-content-font-weight: 400;
+  --wght: 400;
+  --heart-contour: #000;
+  --heart-fill: red;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #000;
     --accent-color: #00CC14;
-    --card-title-font-weight: 785;
-    --card-content-font-weight: 465;
+    --bg-color: #000;
+    --bg-image: url(../svg/pattern-dark.svg);
+    --heart-contour: #00CC14;
+    --wght: 465;
+  }
+
+  .text-weight-bold {
+    --wght: 785;
   }
 }
