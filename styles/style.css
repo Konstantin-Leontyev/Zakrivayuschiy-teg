@@ -27,7 +27,7 @@
 .card {
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
-  margin: 100px auto 50px; 
+  margin: 100px auto 50px;
   max-inline-size: clamp(24.375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
 
@@ -260,7 +260,7 @@
 }
 
 .card__like-button:hover .button__text,
-.save-button:hover .button__text{
+.save-button:hover .button__text {
   color: var(--bg-color);
   transition: color 1s ease;
   z-index: 1;
