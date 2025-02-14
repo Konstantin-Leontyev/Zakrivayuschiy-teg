@@ -1,1 +1,13 @@
+/* TODO delete comment */
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --accent-color: #000;
+  --bg-color: #FFF;
+  --bg-image: url(../svg/pattern-light.svg);
+  --accent-text: 'Press Start 2P', sans-serif;
+  --content-text: 'Inter-Variable', sans-serif;
+  --font-wght: 400;
+  --title-wght: 700;
+  --heart-contour: #000;
+  --heart-fill: red;
+}
