@@ -328,7 +328,7 @@
   opacity: 0.75;
 }
 
-.dialog .button  {
+.dialog .button {
   position: relative;
   grid-column: span 2;
   block-size: 100%;
