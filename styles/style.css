@@ -271,7 +271,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0 0 currentColor;
+  box-shadow: 2px 2px 0 0 var(--accent-color);
   transition: box-shadow 0.3s ease;
 }
 
@@ -334,6 +334,8 @@
   block-size: 100%;
 }
 
+
+
 .dialog__title {
   color: var(--accent-color);
   font-family: var(--accent-text);
@@ -351,6 +353,10 @@
   row-gap: 30px;
   max-inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
   padding: 30px;
+}
+
+.dialog[open] svg {
+  fill: var(--accent-color);
 }
 
 @media (width <= 375px) {
