@@ -37,10 +37,11 @@
   --accent-color: #00CC14;
   --backdrop-color: #000;
   --bg-color: #000;
-  --bg-image: url(../svg/pattern-dark.svg);
+  --gradient: linear-gradient(#007f0c, #004306);
+  --gradient-line-color: #000;
+  --heart-contour: #00CC14;
   --font-wght: 465;
   --title-wght: 785;
   --text-shadow: #000;
-  --heart-contour: #00CC14;
   --button-text-color: #00CC14;
 }
