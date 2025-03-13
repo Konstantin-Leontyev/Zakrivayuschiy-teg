@@ -298,9 +298,10 @@
 
 .card__like-button {
   border: 2px solid currentColor;
-  padding-inline-start: 35px;
-  padding-inline-end: 35px;
   position: relative;
+  text-align: center;
+  max-inline-size: 130px;
+  min-inline-size: 130px;
 }
 
 .save-button {
